@@ -1,0 +1,26 @@
+{
+  "name": "micro-service-in-node",
+  "version": "1.0.0",
+  "description": "microservices in node",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file=.env server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mankal-27/micro-service-in-node.git"
+  },
+  "keywords": [
+    "microservice"
+  ],
+  "author": "Manjunat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mankal-27/micro-service-in-node/issues"
+  },
+  "homepage": "https://github.com/mankal-27/micro-service-in-node#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "request": "^2.88.2"
+  }
+}
